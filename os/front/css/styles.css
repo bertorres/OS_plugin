@@ -1,0 +1,84 @@
+
+@media print {
+	body {print-color-adjust: exact;}
+	.botao, #botoes { display: none; }
+	table > tr > td {text-align: left; padding: 5px;}
+	td, th {text-align: left; padding: 5px;}
+}
+
+td, th {
+	text-align: left;
+	padding: 5px;
+	border-radius:5px;
+}
+.left {
+	text-align: left;
+}
+.botao {
+	height: 27px;
+}
+div.botoes{
+	width:650px;
+	background:#fff;
+	margin:auto;
+	padding-bottom:10px;
+}
+table#principal{
+	width:630px;
+	background:#fff;
+	margin:auto;
+	border:1px solid black;
+	border-radius:3px;
+}
+td.logotipo{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 0px;
+}
+td.titulo{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 0px;
+}
+input[type="submit1"] {height: 27px;}
+
+td.logotipo{
+	width: 25%;
+	text-align: center;
+	margin: auto;
+	border-right: inherit;
+}
+td.titulo{
+	text-align:center;
+	border-left:inherit;
+}
+p.p_titulo{
+	font-size: 18px;
+	font-weight: bold;
+	margin: auto;
+}
+table.custos{
+	text-align:center;
+	border: none;
+	margin:auto;
+	border-collapse: collapse;
+}
+p.totales{
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:left;
+}
+table.custos > tbody > tr > th{
+	border-bottom:3px solid black;
+}
+td.texto{
+	padding:10px;
+}
+th.encabezado{
+	text-align:center;
+}
+div.borde{
+	border-bottom:3px solid black;
+}
